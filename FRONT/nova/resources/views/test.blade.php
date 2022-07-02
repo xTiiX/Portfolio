@@ -11,9 +11,8 @@
     <body>
         <div class="container">
             <section>
-                <br><br><br>
-                <p>Test de Spheres :</p><br><br><br>
-                <div class="content">
+                <p class="content" style="background-color: blueviolet">Test de Spheres :</p><br><br><br>
+                <div class="content" style="background-color: yellow">
                     <svg class="animate-slow-down" width="119" height="119" viewBox="0 0 119 119" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="59.5" cy="59.5" r="59.5" fill="#F97316"/>
                     </svg>
@@ -39,8 +38,8 @@
                         <circle cx="109.5" cy="109.5" r="109" fill="#F4C10A" stroke="#F4C10A"/>
                     </svg>
                 </div>
-                <div class="content m-10"></div>
-                <div class="content">
+                <div class="content" style="background-color: green"></div>
+                <div class="content" style="background-color: red">
                     <svg class="animate-slow-up" width="119" height="119" viewBox="0 0 119 119" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="59.5" cy="59.5" r="59.5" fill="#F97316"/>
                     </svg>
@@ -69,6 +68,7 @@
                         <circle cx="59.5" cy="59.5" r="59.5" fill="#F97316"/>
                     </svg>
                 </div>
+                <p class="content" style="background-color: aquamarine">Test de Spheres |</p>
             </section>
         </div>
     </body>
