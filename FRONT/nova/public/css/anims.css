@@ -1,0 +1,202 @@
+/* DOWN */
+@-webkit-keyframes slow-down {
+    40%, 60% {
+        transform: translateY(+50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+@keyframes slow-down {
+    40%, 60% {
+        transform: translateY(+50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+.animate-slow-down {
+    -webkit-animation: slow-down 8s ease-in-out infinite;
+            animation: slow-down 8s ease-in-out infinite;
+}
+
+@-webkit-keyframes slow-down-2 {
+    30%, 50% {
+        transform: translateY(+50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+
+@keyframes slow-down-2 {
+    30%, 50% {
+        transform: translateY(+50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+.animate-slow-down-2 {
+    -webkit-animation: slow-down-2 8s ease-in-out infinite;
+            animation: slow-down-2 8s ease-in-out infinite;
+}
+
+@-webkit-keyframes slow-down-3 {
+    50%, 70% {
+        transform: translateY(+50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+
+@keyframes slow-down-3 {
+    50%, 70% {
+        transform: translateY(+50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+.animate-slow-down-3 {
+    -webkit-animation: slow-down-3 8s ease-in-out infinite;
+            animation: slow-down-3 8s ease-in-out infinite;
+}
+
+/* UP */
+
+@-webkit-keyframes up {
+    50% {
+        transform: translateY(-50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+
+@keyframes up {
+    50% {
+        transform: translateY(-50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+
+@-webkit-keyframes slow-up {
+    40%, 60% {
+        transform: translateY(-50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+
+@keyframes slow-up {
+    40%, 60% {
+        transform: translateY(-50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+.animate-slow-up {
+    -webkit-animation: slow-up 8s ease-in-out infinite;
+            animation: slow-up 8s ease-in-out infinite;
+}
+
+@-webkit-keyframes slow-up-2 {
+    30%, 50% {
+        transform: translateY(-50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+
+@keyframes slow-up-2 {
+    30%, 50% {
+        transform: translateY(-50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+.animate-slow-up-2 {
+    -webkit-animation: slow-up-2 8s ease-in-out infinite;
+            animation: slow-up-2 8s ease-in-out infinite;
+}
+
+@-webkit-keyframes slow-up-3 {
+    50%, 70% {
+        transform: translateY(-50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+
+@keyframes slow-up-3 {
+    50%, 70% {
+        transform: translateY(-50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+.animate-slow-up-3 {
+    -webkit-animation: slow-up-3 8s ease-in-out infinite;
+            animation: slow-up-3 8s ease-in-out infinite;
+}
+
+/* DELAYED ANIMATION ! */
+.animate-sup-1s {
+    -webkit-animation: up 8s ease-in-out infinite;
+            animation: up 8s ease-in-out infinite;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+.animate-sup-2s {
+    -webkit-animation: up 8s ease-in-out infinite;
+            animation: up 8s ease-in-out infinite;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.animate-sup-3s {
+    -webkit-animation: up 8s ease-in-out infinite;
+            animation: up 8s ease-in-out infinite;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+.animate-sup-4s {
+    -webkit-animation: up 8s ease-in-out infinite;
+            animation: up 8s ease-in-out infinite;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+}
+.animate-sup-5s {
+    -webkit-animation: up 8s ease-in-out infinite;
+            animation: up 8s ease-in-out infinite;
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+}
+.animate-sup-6s {
+    -webkit-animation: up 8s ease-in-out infinite;
+            animation: up 8s ease-in-out infinite;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+}
+.animate-sup-7s {
+    -webkit-animation: up 8s ease-in-out infinite;
+            animation: up 8s ease-in-out infinite;
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+}
+.animate-sup-8s {
+    -webkit-animation: up 8s ease-in-out infinite;
+            animation: up 8s ease-in-out infinite;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+}
+

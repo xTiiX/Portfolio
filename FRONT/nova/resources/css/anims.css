@@ -1,0 +1,117 @@
+/* DOWN */
+@keyframes slow-down {
+    40%, 60% {
+        transform: translateY(+50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+.animate-slow-down {
+    animation: slow-down 8s ease-in-out infinite;
+}
+
+@keyframes slow-down-2 {
+    30%, 50% {
+        transform: translateY(+50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+.animate-slow-down-2 {
+    animation: slow-down-2 8s ease-in-out infinite;
+}
+
+@keyframes slow-down-3 {
+    50%, 70% {
+        transform: translateY(+50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+.animate-slow-down-3 {
+    animation: slow-down-3 8s ease-in-out infinite;
+}
+
+/* UP */
+
+@keyframes up {
+    50% {
+        transform: translateY(-50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+
+@keyframes slow-up {
+    40%, 60% {
+        transform: translateY(-50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+.animate-slow-up {
+    animation: slow-up 8s ease-in-out infinite;
+}
+
+@keyframes slow-up-2 {
+    30%, 50% {
+        transform: translateY(-50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+.animate-slow-up-2 {
+    animation: slow-up-2 8s ease-in-out infinite;
+}
+
+@keyframes slow-up-3 {
+    50%, 70% {
+        transform: translateY(-50%);
+    }
+    0%, 100% {
+        transform: none;
+    }
+}
+.animate-slow-up-3 {
+    animation: slow-up-3 8s ease-in-out infinite;
+}
+
+/* DELAYED ANIMATION ! */
+.animate-sup-1s {
+    animation: up 8s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+.animate-sup-2s {
+    animation: up 8s ease-in-out infinite;
+    animation-delay: 1s;
+}
+.animate-sup-3s {
+    animation: up 8s ease-in-out infinite;
+    animation-delay: 1.5s;
+}
+.animate-sup-4s {
+    animation: up 8s ease-in-out infinite;
+    animation-delay: 2s;
+}
+.animate-sup-5s {
+    animation: up 8s ease-in-out infinite;
+    animation-delay: 2.5s;
+}
+.animate-sup-6s {
+    animation: up 8s ease-in-out infinite;
+    animation-delay: 3s;
+}
+.animate-sup-7s {
+    animation: up 8s ease-in-out infinite;
+    animation-delay: 3.5s;
+}
+.animate-sup-8s {
+    animation: up 8s ease-in-out infinite;
+    animation-delay: 4s;
+}
